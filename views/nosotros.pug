@@ -1,0 +1,33 @@
+extends ./layout/index 
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros",class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum, libero a elementum efficitur, nisl sapien congue nibh, eget pulvinar sem ligula at mauris. Proin rutrum purus sollicitudin tempor venenatis. Sed ac commodo enim, at dapibus libero. Phasellus dignissim ex nunc, nec elementum erat fermentum in. Vestibulum finibus turpis lorem, cursus egestas urna tincidunt in. Sed eu dapibus velit, sit amet faucibus nisi. Mauris suscipit nisi vel ligula tincidunt laoreet. 
+
+                p Curabitur sollicitudin leo nec lectus vulputate, ut placerat leo cursus. Phasellus pharetra, elit quis consequat semper, nunc arcu convallis odio, vitae lobortis nulla sem eget odio. Nam eu accumsan magna, sit amet elementum mi. Nullam quam purus, dapibus et semper sed, venenatis vitae sapien. Quisque eu felis ultrices, semper nunc vitae, vehicula elit. Aenean id mauris nisl. Vestibulum vitae quam sollicitudin, posuere dui et, luctus sem. Donec et maximus orci, quis tincidunt ligula.
+
+                p Maecenas commodo neque purus. Nulla varius feugiat nibh, id vehicula justo semper ac. Aliquam vel mauris mattis, commodo ipsum sed, auctor metus. Suspendisse euismod ipsum ornare, tincidunt dui in, bibendum libero. Sed quam velit, pharetra vitae lectus ac, dignissim laoreet orci. Pellentesque porta dui eu purus maximus, in sodales magna volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent at scelerisque diam. 
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="iconos seguridad",class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Pellentesque porta dui eu purus maximus, in sodales magna volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent at scelerisque diam. 
+                
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="iconos destinos",class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Pellentesque porta dui eu purus maximus, in sodales magna volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent at scelerisque diam. 
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="iconos precios",class="img-fluid mb-4")
+                    h2.mb-4 Los mejores precios
+                    p Pellentesque porta dui eu purus maximus, in sodales magna volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent at scelerisque diam.
